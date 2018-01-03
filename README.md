@@ -1,5 +1,5 @@
 # mapmyrun-client
-A ruby client for accessing the MayMyRun "You VS the Year 2017" stats.
+A ruby client for accessing the MayMyRun "You VS the Year" stats.
 
 Given your total distance run for the year, the script will return your current 
 position with some context about the people around you (which is hard to get via
@@ -31,4 +31,8 @@ Total count: 23119
 
 ### N.B.
 
-The script makes an effort to limit the number of requests it makes (out of respect for the MapMyRun infrastructure), but it's not very smart.  
+The script makes an effort to limit the number of requests it makes (out of respect for the MapMyRun infrastructure), but it's not very smart.
+
+Originally written for You VS The Year 2017.
+
+Updated for 2018.

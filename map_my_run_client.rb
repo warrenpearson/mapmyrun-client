@@ -7,9 +7,9 @@ require 'json'
 # Or, given a future estimate, find where that would roughly place me.
 class MapMyRunClient
   def initialize
-    @base_url = 'http://www.mapmyrun.com/leaderboard/challenge_aeXPR2rxP4_overall/page/'
-    @per_page = '/?per_page=20'
-    @search_distance = 30
+    @base_url = 'http://www.mapmyrun.com/leaderboard/challenge_ajEePE5X5L_overall/page/'
+    @per_page = '/?per_page=50'
+    @search_distance = 500
   end
 
   def find_by_distance(args)
